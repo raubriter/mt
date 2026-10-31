@@ -4,7 +4,7 @@
 
 ## Author's note
 
-This software is made only for students who want to get every question right in the **Matemática e suas Tecnologias** part of the ENEM and who will use their final score as a qualification requirement for the 1st Phase of the <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Selection Process</a> for the _B.Sc. in Mathematics of Technology and Innovation_ at <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
+This software is made only for students who want to get a perfect score in the **Matemática e suas Tecnologias** part of the ENEM and who will use their final score as a qualification requirement for the 1st Phase of the <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Selection Process</a> for the _B.Sc. in Mathematics of Technology and Innovation_ at <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
 
 ### What does this program do?
 
