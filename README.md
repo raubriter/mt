@@ -3,25 +3,25 @@
 <b>mt</b> is a simple simulator for the <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem">ENEM</a>.
 
 <details>
-<summary>Click here to see the author's note</summary>
+<summary>Select here to view the author's note</summary>
 
-## Author's note 🇧🇷
+## Author's Note 🇧🇷
 
-Este software destina-se exclusivamente a estudantes que desejam obter pontuação máxima na prova de **Matemática e suas Tecnologias** do ENEM — 45 de 45 acertos — e que utilizarão sua nota final como requisito de habilitação para a 1ª Fase do <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Processo Seletivo</a> do **Bacharelado em Matemática da Tecnologia e Inovação** do <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
+This software is intended exclusively for students who wish to obtain the maximum score on the **Mathematics and Its Technologies** examination of the ENEM—45 correct answers out of 45—and who will use their final score as a qualification requirement for the First Phase of the <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Selective Process</a> for the **Bachelor's Degree in Mathematics, Technology, and Innovation** at <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
 
-### O que este programa faz?
+### What does this program do?
 
-Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos">conjunto oficial de questões do ENEM</a> referentes à seção _Matemática e suas Tecnologias (MT)_, do período de 2009 a 2025 — cerca de 765 questões — e as apresenta ao usuário pelo mesmo período de tempo do exame oficial, excluindo as questões de _Ciências da Natureza e suas Tecnologias (CN)_.
+It randomly selects 45 questions from the <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos">official ENEM question set</a> pertaining to the _Mathematics and Its Technologies (MT)_ section, for the period from 2009 to 2025—approximately 765 questions—and presents them to the user for the same duration as the official examination, excluding questions from _Natural Sciences and Their Technologies (CN)_.
 
-### O que este programa não faz?
+### What does this program not do?
 
-- **Não** exibe o gabarito.
-- **Não** exibe o ano da edição.
-- **Não** exibe dicas ou "macetes".
-- **Não** exibe o número da questão.
-- **Não** calcula nem exibe pontuação.
-- **Não** exibe resoluções comentadas.
-- **Não** garante a aprovação no processo seletivo do IMPA Tech ou de qualquer outro vestibular.
+- It **does not** display the answer key.
+- It **does not** display the edition year.
+- It **does not** display hints or “tricks.”
+- It **does not** display the question number.
+- It **does not** calculate or display a score.
+- It **does not** display commented solutions.
+- It **does not** guarantee admission to the IMPA Tech selective process or to any other university entrance examination.
 
 </details>
 
@@ -47,22 +47,22 @@ Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/
 
 ## Prologue
 
-This program adheres to the <a href="https://suckless.org/philosophy/">suckless.org team philosophy</a> and its conventions for <a href="https://suckless.org/coding_style/">coding style</a>. Please take some time to familiarize yourself with them.
+This program adheres to the <a href="https://suckless.org/philosophy/">suckless.org team philosophy</a> and its conventions for <a href="https://suckless.org/coding_style/">coding style</a>. Users are advised to take some time to familiarize themselves with them.
 
-As stated by the author, the program’s goal is to provide a random selection of 45 questions — though not restricted to that quantity — from the official ENEM question database, such that they can be answered correctly within a five-hour period — likewise not restricted to that duration (see the [Customization](#customization) section). 
+As stated by the author, the goal of the program is to provide a random selection of 45 questions—though not restricted to that quantity—from the official ENEM question database, such that they can be answered correctly within a five-hour period—likewise not restricted to that duration (see the [Customization](#customization) section).
 
 To this end, a pre-selection range was established and a simple user interface was developed, enabling users to focus entirely on the test content instead of becoming lost in the unnecessary complexity of the UI/UX design options available when preparing for a time-intensive examination such as the ENEM.
 
 At a minimum, users must have:
 
-- A GNU/Linux distribution, such as <a href="https://www.debian.org/">Debian</a>, or a Windows system running WSL with an X11 server (e.g. <a href="https://github.com/microsoft/wslg">WSLg</a>), or a virtual machine (e.g. <a href="https://www.qemu.org/">QEMU</a>, <a href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview">Hyper-V</a>, <a href="https://www.virtualbox.org/">VirtualBox</a>, or <a href="https://www.vmware.com/">VMware</a>).
-- Some sheets of paper.
-- A pen (preferably a transparent-barreled, black-ink pen, such as the <a href="https://eu.bic.com/pt-pt/stationery/cristal-anniversary">good old Bic Cristal</a>).
+- A GNU/Linux distribution, such as <a href="https://www.debian.org/">Debian</a>, or a Windows system running WSL with an X11 server (e.g., <a href="https://github.com/microsoft/wslg">WSLg</a>), or a virtual machine (e.g., <a href="https://www.qemu.org/">QEMU</a>, <a href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview">Hyper-V</a>, <a href="https://www.virtualbox.org/">VirtualBox</a>, or <a href="https://www.vmware.com/">VMware</a>).
+- Several sheets of paper.
+- A pen (preferably a transparent-barreled, black-ink pen, such as the well-known <a href="https://eu.bic.com/pt-pt/stationery/cristal-anniversary">Bic Cristal</a>).
 - _and a bottle of water!_
 
 ## Dependencies
 
-`mt` depends on the following tools and libraries, most of them already present in Unix-like systems:
+`mt` depends on the following tools and libraries, most of which are already present in Unix-like systems:
 
 - A C compiler (`cc`) and `make`.
 - Xlib headers and library (`libX11`).
@@ -78,11 +78,11 @@ apt install build-essential libx11-dev bzip2
 
 ### Database
 
-The database can be obtained at Overleaf (see the [Corpus](#corpus) section) and organized using <a href="https://github.com/raubriter/tex2ff">tex2ff</a> — a shell script specifically designed to work with `mt`.
+The database can be obtained at Overleaf (see the [Corpus](#corpus) section) and organized using <a href="https://github.com/raubriter/tex2ff">tex2ff</a>—a shell script specifically designed to work with `mt`.
 
 ## Obtaining the source
 
-Clone it and enter the directory:
+Clone the repository and enter the directory:
 
 ```
 git clone https://github.com/raubriter/mt.git
@@ -93,7 +93,7 @@ The resulting tree contains:
 
 <img width="956" height="512" alt="image" src="https://github.com/user-attachments/assets/27158c23-9621-40cb-9f5e-57ae7f1ac15c" /><br/>
 
-The `data/` directory is generally not tracked by the repository, since it would hold large files. You will need to create and populate it yourself (see the [Corpus](#corpus) section).
+The `data/` directory is generally not tracked by the repository, since it would hold large files. Users must create and populate it themselves (see the [Corpus](#corpus) section).
 
 ## Files
 
@@ -108,7 +108,7 @@ The `data/` directory is generally not tracked by the repository, since it would
 
 ### What `config.mk` is
 
-In the suckless ecosystem, `config.mk` is a file **included by the `Makefile`** that centralizes build variables. It lets you adjust how `make` compiles and installs the software **without touching the `Makefile` logic**, which stays generic. The `Makefile` starts with a line such as:
+In the suckless ecosystem, `config.mk` is a file **included by the `Makefile`** that centralizes build variables. It allows the user to adjust how `make` compiles and installs the software **without modifying the `Makefile` logic**, which remains generic. The `Makefile` begins with a line such as:
 
 ```
 include config.mk
@@ -121,7 +121,7 @@ so every definition in `config.mk` becomes available to the build rules.
 | Variable   | Meaning                                                              | Default                                          |
 |------------|----------------------------------------------------------------------|--------------------------------------------------|
 | `VERSION`  | Program version, used in `CPPFLAGS` to define the `VERSION` macro.   | `1.0`                                            |
-| `PREFIX`   | Installation prefix. The binary goes to `$(PREFIX)/bin`.             | `/usr/local`                                     |
+| `PREFIX`   | Installation prefix. The binary is placed in `$(PREFIX)/bin`.        | `/usr/local`                                     |
 | `X11INC`   | Directory of the X11 headers.                                        | `/usr/X11R6/include`                             |
 | `X11LIB`   | Directory of the X11 libraries.                                      | `/usr/X11R6/lib`                                 |
 | `INCS`     | Include flags (`-I...`).                                             | `-I${X11INC}`                                    |
@@ -131,20 +131,20 @@ so every definition in `config.mk` becomes available to the build rules.
 | `LDFLAGS`  | Linker flags.                                                        | `${LIBS}`                                        |
 | `CC`       | C compiler.                                                          | `cc`                                             |
 
-**When to change each one:**
+**When each variable should be changed:**
 
-- **`PREFIX`** — to install into `~/.local` (no `sudo` needed) or into `/usr` instead of `/usr/local`.
+- **`PREFIX`** — to install into `~/.local` (without `sudo`) or into `/usr` instead of `/usr/local`.
 - **`CC`** — to use `clang` instead of `cc`.
-- **`CFLAGS`** — to add `-g` (debug symbols) or drop `-Os` (size optimization).
-- **`X11INC` / `X11LIB`** — only if X11 lives in a non-standard location (rare on modern systems; the defaults usually work).
+- **`CFLAGS`** — to add `-g` (debug symbols) or to remove `-Os` (size optimization).
+- **`X11INC` / `X11LIB`** — only if X11 resides in a non-standard location (rare on modern systems; the defaults usually work).
 
 ### `Makefile` targets
 
 | Target          | What it does                                                                 |
 |-----------------|------------------------------------------------------------------------------|
-| `all` (default) | Compiles the `mt` binary from `mt.o`, `logo.o` and `util.o`.                 |
+| `all` (default) | Compiles the `mt` binary from `mt.o`, `logo.o`, and `util.o`.                |
 | `clean`         | Removes object files (`*.o`) and the `mt` binary.                            |
-| `install`       | Copies the binary into `$(PREFIX)/bin`, creating the directory if needed.    |
+| `install`       | Copies the binary into `$(PREFIX)/bin`, creating the directory if necessary. |
 | `uninstall`     | Removes the installed binary.                                                |
 
 Running plain `make` executes the `all` target.
@@ -157,18 +157,18 @@ The most common installation invocation is:
 make clean install
 ```
 
-This runs **two targets in sequence**:
+This executes **two targets in sequence**:
 
 1. `clean` — deletes stale objects and binaries, guaranteeing a fresh build.
 2. `install` — rebuilds if necessary and installs the binary under `PREFIX`.
 
-If you cannot write to `/usr/local`, either run `sudo make clean install` or change `PREFIX` to a directory you own (e.g. `PREFIX = $(HOME)/.local`) and run `make clean install` without `sudo`.
+If the user cannot write to `/usr/local`, either run `sudo make clean install` or change `PREFIX` to a directory owned by the user (e.g., `PREFIX = $(HOME)/.local`) and run `make clean install` without `sudo`.
 
 ## Installation
 
-Edit `config.mk` to match your local setup (`mt` is installed into the `/usr/local` namespace by default).
+Edit `config.mk` to match the local setup (`mt` is installed into the `/usr/local` namespace by default).
 
-To compile only — the binary is left in the current directory and nothing is installed:
+To compile only—the binary is left in the current directory and nothing is installed:
 
 ```
 make
@@ -188,7 +188,7 @@ make uninstall
 
 ## Corpus
 
-The _Corpus_ is the local database of `.ff.bz2` files consumed by `mt`. Please, see <a href="https://github.com/raubriter/tex2ff">tex2ff GitHub's repository</a> to understand how to use it.
+The _Corpus_ is the local database of `.ff.bz2` files consumed by `mt`. Please consult the <a href="https://github.com/raubriter/tex2ff">tex2ff GitHub repository</a> to understand how to use it.
 
 The table below lists the source project for each edition, from 2009 to 2025:
 
@@ -212,7 +212,7 @@ The table below lists the source project for each edition, from 2009 to 2025:
 | 2024 | `WIP` |
 | 2025 | `WIP` |
 
-After accessing and exporting it as `.zip`, run `tex2ff` on the resulting file (e.g., `2009.zip`) and move the output into `mt`'s data directory:
+After accessing and exporting it as a `.zip` file, run `tex2ff` on the resulting file (e.g., `2009.zip`) and move the output into `mt`'s data directory:
 
 <img width="956" height="661" alt="image" src="https://github.com/user-attachments/assets/f269f36e-26b0-4533-9bd4-1fcfa48452a2" />
 
@@ -230,8 +230,8 @@ The program opens a fullscreen window and presents a start screen with the logo.
 
 On the start screen:
 
-- <kbd>Enter</kbd> — start the test (the pool is shuffled and the timer starts).
-- <kbd>Esc</kbd> — quit.
+- <kbd>Enter</kbd> — starts the test (the pool is shuffled and the timer starts).
+- <kbd>Esc</kbd> — quits.
 
 <table>
   <tr>
@@ -243,18 +243,18 @@ On the start screen:
 
 During the test:
 
-- <kbd>A</kbd>–<kbd>E</kbd> — answer the current question.
-- <kbd>Space</kbd> — skip the current question.
-- <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> — pan the image.
-- <kbd>+</kbd> / <kbd>-</kbd> — zoom in / out.
-- <kbd>Esc</kbd> — quit immediately.
+- <kbd>A</kbd>–<kbd>E</kbd> — answers the current question.
+- <kbd>Space</kbd> — skips the current question.
+- <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> — pans the image.
+- <kbd>+</kbd> / <kbd>-</kbd> — zooms in / out.
+- <kbd>Esc</kbd> — quits immediately.
 
 **Answer semantics:**
 
 - A **correct** answer **removes** the question from the active pool.
-- A **wrong** answer or a **skip** leaves the question in the pool; the program simply draws another one, which may reappear later.
+- A **wrong** answer or a **skip** leaves the question in the pool; the program simply draws another question, which may reappear later.
 
-The test ends when the pool is exhausted, when the timer runs out, or when the waiting period expires. 
+The test ends when the pool is exhausted, when the timer runs out, or when the waiting period expires.
 
 When the pool is emptied, `mt` enters a waiting state and displays `AGUARDE` together with the timer; the maximum time spent there is controlled by `TIMER_WAIT_MINUTES`.
 
@@ -266,7 +266,7 @@ When the pool is emptied, `mt` enters a waiting state and displays `AGUARDE` tog
   </tr>
 </table>
 
-The `AGUARDE` message simulates the need to wait until the instructor gives you permission to leave the room on the day of the official test. According to [INEP's recent rules](https://www.in.gov.br/web/dou/-/edital-n-126-de-24-de-agosto-de-2026-727881923), a candidate may leave the room **no earlier than two hours after the start of the test**.
+The `AGUARDE` message simulates the need to wait until the instructor gives the candidate permission to leave the room on the day of the official test. According to [INEP's recent rules](https://www.in.gov.br/web/dou/-/edital-n-126-de-24-de-agosto-de-2026-727881923), a candidate may leave the room **no earlier than two hours after the start of the test**.
 
 ## Customization
 
@@ -296,9 +296,9 @@ To apply a change:
 
 ### Filename convention
 
-The answer to each question is encoded in its filename: the character immediately before the `.ff.bz2` extension (e.g. `2009-136-C.ff.bz2` has answer **C**). 
+The answer to each question is encoded in its filename: the character immediately before the `.ff.bz2` extension (e.g., `2009-136-C.ff.bz2` has answer **C**).
 
-Keep this convention when adding new files to the database — `mt` parses it with `parse_answer()` in `mt.c`.
+This convention must be maintained when adding new files to the database—`mt` parses it with `parse_answer()` in `mt.c`.
 
 ## License
 
