@@ -3,25 +3,25 @@
 <b>mt</b> is a simple simulator for the <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem">ENEM</a>.
 
 <details>
-<summary>Select here to view the author's note</summary>
+<summary>Author's note</summary>
 
-## Author's Note 🇧🇷
+## Nota do Autor (Author's note) 🇧🇷
 
-This software is intended exclusively for students who wish to obtain the maximum score on the **Mathematics and Its Technologies** examination of the ENEM—45 correct answers out of 45—and who will use their final score as a qualification requirement for the First Phase of the <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Selective Process</a> for the **Bachelor's Degree in Mathematics, Technology, and Innovation** at <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
+Este software destina-se exclusivamente a estudantes que desejam obter a pontuação máxima na prova de **Matemática e suas Tecnologias** do ENEM — 45 acertos de 45 — e que utilizarão sua nota final como requisito de habilitação para a 1ª Fase do <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Processo Seletivo</a> do **Bacharelado em Matemática da Tecnologia e Inovação** do <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
 
-### What does this program do?
+### O que este programa faz?
 
-It randomly selects 45 questions from the <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos">official ENEM question set</a> pertaining to the _Mathematics and Its Technologies (MT)_ section, for the period from 2009 to 2025—approximately 765 questions—and presents them to the user for the same duration as the official examination, excluding questions from _Natural Sciences and Their Technologies (CN)_.
+Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos">conjunto oficial de questões do ENEM</a> referentes à seção _Matemática e suas Tecnologias (MT)_, do período de 2009 a 2025 — aproximadamente 765 questões — e as apresenta ao usuário pelo mesmo período de tempo do exame oficial, aplicado no 2º dia, excluindo as questões de _Ciências da Natureza e suas Tecnologias (CN)_.
 
-### What does this program not do?
+### O que este programa não faz?
 
-- It **does not** display the answer key.
-- It **does not** display the edition year.
-- It **does not** display hints or “tricks.”
-- It **does not** display the question number.
-- It **does not** calculate or display a score.
-- It **does not** display commented solutions.
-- It **does not** guarantee admission to the IMPA Tech selective process or to any other university entrance examination.
+- **Não** exibe o gabarito.
+- **Não** exibe o ano da edição.
+- **Não** exibe dicas ou “macetes”.
+- **Não** exibe o número da questão.
+- **Não** calcula nem exibe pontuação.
+- **Não** exibe resoluções comentadas.
+- **Não** garante a aprovação no processo seletivo do IMPA Tech ou de qualquer outro vestibular.
 
 </details>
 
