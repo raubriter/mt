@@ -4,7 +4,7 @@
 
 ## Author's note 🇧🇷
 
-Este software destina-se exclusivamente a estudantes que desejam obter pontuação máxima na prova de **Matemática e suas Tecnologias** do ENEM — 45 de 45 acertos — e que utilizarão sua nota final como requisito de habilitação para a 1ª Fase do <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Processo Seletivo</a> do Bacharelado em Matemática da Tecnologia e Inovação do <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
+Este software destina-se exclusivamente a estudantes que desejam obter pontuação máxima na prova de **Matemática e suas Tecnologias** do ENEM — 45 de 45 acertos — e que utilizarão sua nota final como requisito de habilitação para a 1ª Fase do <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Processo Seletivo</a> do **Bacharelado em Matemática da Tecnologia e Inovação** do <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
 
 ### O que este programa faz?
 
