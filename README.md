@@ -2,21 +2,25 @@
 
 <b>mt</b> is a simple simulator for <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem">ENEM</a>.
 
-## Author's note
+## Author's note 🇧🇷
 
-This software is made only for students who want to get a perfect score in the **Matemática e suas Tecnologias** part of the ENEM and who will use their final score as a qualification requirement for the 1st Phase of the <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Selection Process</a> for the _B.Sc. in Mathematics of Technology and Innovation_ at <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
+Este software destina-se exclusivamente a estudantes que desejam obter pontuação máxima na parte de **Matemática e suas Tecnologias** do ENEM e que utilizarão sua nota final como requisito de habilitação para a 1ª Fase do <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Processo Seletivo</a> do Bacharelado em Matemática de Tecnologia e Inovação do <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
 
-### What does this program do?
+### O que este programa faz?
 
-It picks 45 questions at random from the <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos">official ENEM question set</a> for the _Matemática e suas Tecnologias (MT)_ section from 2009 to 2025 — about 765 questions — and shows them to the user for the same amount of time as the official exam, leaving out the _Ciências da Natureza e suas Tecnologias (CN)_ questions.
+Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos">conjunto oficial de questões do ENEM</a> referentes à seção _Matemática e suas Tecnologias (MT)_, do período de 2009 a 2025 — cerca de 765 questões — e as apresenta ao usuário pelo mesmo período de tempo do exame oficial, excluindo as questões de _Ciências da Natureza e suas Tecnologias (CN)_.
 
-### What does this program not do?
+### O que este programa não faz?
 
-- It **does not** calculate or show a score.
-- It **does not** show tips.
-- It **does not** show the answer key.
-- It **does not** show the edition year.
-- It **does not** show the question number.
-- It **does not** show worked solutions.
+- **Não** exibe dicas.
+- **Não** exibe o gabarito.
+- **Não** exibe o ano da edição.
+- **Não** exibe o número da questão.
+- **Não** calcula nem exibe pontuação.
+- **Não** exibe resoluções comentadas.
 
-I hope that, while using the software, you come to understand why it was built this way.
+Espero que, ao utilizar o software, o usuário venha a compreender por que ele foi concebido dessa maneira.
+
+## Overview
+
+In progress.
