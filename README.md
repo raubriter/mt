@@ -2,6 +2,9 @@
 
 <b>mt</b> is a simple simulator for the <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem">ENEM</a>.
 
+<details>
+<summary>Click here to see the author's note</summary>
+
 ## Author's note 🇧🇷
 
 Este software destina-se exclusivamente a estudantes que desejam obter pontuação máxima na prova de **Matemática e suas Tecnologias** do ENEM — 45 de 45 acertos — e que utilizarão sua nota final como requisito de habilitação para a 1ª Fase do <a href="https://impatech.edu.br/processo-seletivo/atual/calendario-do-processo-seletivo/">Processo Seletivo</a> do **Bacharelado em Matemática da Tecnologia e Inovação** do <a href="https://impatech.edu.br/institucional/conheca-o-impa-tech/">IMPA Tech</a>.
@@ -20,20 +23,7 @@ Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/
 - **Não** exibe resoluções comentadas.
 - **Não** garante a aprovação no processo seletivo do IMPA Tech ou de qualquer outro vestibular.
 
-## Prologue
-
-This program adheres to the <a href="https://suckless.org/philosophy/">suckless.org team philosophy</a> and its conventions for <a href="https://suckless.org/coding_style/">coding style</a>. Please take some time to familiarize yourself with them.
-
-As stated by the author, the program’s goal is to provide a random selection of 45 questions — though not restricted to that quantity — from the official ENEM question database, such that they can be answered correctly within a five-hour period — likewise not restricted to that duration (see the [Customization](#customization) section). 
-
-To this end, a pre-selection range was established and a simple user interface was developed, enabling users to focus entirely on the test content instead of becoming lost in the unnecessary complexity of the UI/UX design options available when preparing for a time-intensive examination such as the ENEM.
-
-At a minimum, users must have:
-
-- A GNU/Linux distribution, such as <a href="https://www.debian.org/">Debian</a>, or a Windows system running WSL with an X11 server (e.g. <a href="https://github.com/microsoft/wslg">WSLg</a>), or a virtual machine (e.g. <a href="https://www.qemu.org/">QEMU</a>, <a href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview">Hyper-V</a>, <a href="https://www.virtualbox.org/">VirtualBox</a>, or <a href="https://www.vmware.com/">VMware</a>).
-- Some sheets of paper.
-- A pen (preferably a transparent-barreled, black-ink pen, such as the <a href="https://eu.bic.com/pt-pt/stationery/cristal-anniversary">good old Bic Cristal</a>).
-- _and a bottle of water!_
+</details>
 
 ## ToC
 
@@ -54,6 +44,21 @@ At a minimum, users must have:
   - [Behavior (`config.def.h`)](#behavior-configdefh)
   - [Filename convention](#filename-convention)
 - [License](#license)
+
+## Prologue
+
+This program adheres to the <a href="https://suckless.org/philosophy/">suckless.org team philosophy</a> and its conventions for <a href="https://suckless.org/coding_style/">coding style</a>. Please take some time to familiarize yourself with them.
+
+As stated by the author, the program’s goal is to provide a random selection of 45 questions — though not restricted to that quantity — from the official ENEM question database, such that they can be answered correctly within a five-hour period — likewise not restricted to that duration (see the [Customization](#customization) section). 
+
+To this end, a pre-selection range was established and a simple user interface was developed, enabling users to focus entirely on the test content instead of becoming lost in the unnecessary complexity of the UI/UX design options available when preparing for a time-intensive examination such as the ENEM.
+
+At a minimum, users must have:
+
+- A GNU/Linux distribution, such as <a href="https://www.debian.org/">Debian</a>, or a Windows system running WSL with an X11 server (e.g. <a href="https://github.com/microsoft/wslg">WSLg</a>), or a virtual machine (e.g. <a href="https://www.qemu.org/">QEMU</a>, <a href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview">Hyper-V</a>, <a href="https://www.virtualbox.org/">VirtualBox</a>, or <a href="https://www.vmware.com/">VMware</a>).
+- Some sheets of paper.
+- A pen (preferably a transparent-barreled, black-ink pen, such as the <a href="https://eu.bic.com/pt-pt/stationery/cristal-anniversary">good old Bic Cristal</a>).
+- _and a bottle of water!_
 
 ## Dependencies
 
