@@ -70,7 +70,7 @@ The resulting tree contains:
 
 <img width="956" height="512" alt="image" src="https://github.com/user-attachments/assets/27158c23-9621-40cb-9f5e-57ae7f1ac15c" /><br/>
 
-The `data/` directory is generally **not** tracked by the repository, since it would hold large files. You will need to create and populate it yourself (see the [Corpus](#corpus) section).
+The `data/` directory is generally not tracked by the repository, since it would hold large files. You will need to create and populate it yourself (see the [Corpus](#corpus) section).
 
 ## Files
 
