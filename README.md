@@ -231,9 +231,19 @@ During the test:
 - A **correct** answer **removes** the question from the active pool.
 - A **wrong** answer or a **skip** leaves the question in the pool; the program simply draws another one, which may reappear later.
 
-The test ends when the pool is exhausted, when the timer runs out, or when the waiting period expires (see **Customization**). When the pool is emptied, `mt` enters a waiting state and displays `AGUARDE` together with the timer; the maximum time spent there is controlled by `TIMER_WAIT_MINUTES`.
+The test ends when the pool is exhausted, when the timer runs out, or when the waiting period expires. 
 
-The `AGUARDE` message simulates the need to wait until the instructor, on the day of the official test, gives you permission to leave the room. According to the <a href="https://www.in.gov.br/web/dou/-/edital-n-126-de-24-de-agosto-de-2026-727881923">INEP most recent rules</a>, a candidate may leave the room _no earlier than two hours after the test start time_.
+When the pool is emptied, `mt` enters a waiting state and displays `AGUARDE` together with the timer; the maximum time spent there is controlled by `TIMER_WAIT_MINUTES`.
+
+<table>
+  <tr>
+    <td align="center">
+      <img width="1914" height="1079" alt="image" src="https://github.com/user-attachments/assets/5cc7c75e-5123-427b-a3e2-591b8cac9808" />
+    </td>
+  </tr>
+</table>
+
+The `AGUARDE` message simulates the need to wait until the instructor gives you permission to leave the room on the day of the official test. According to [INEP's most recent rules](https://www.in.gov.br/web/dou/-/edital-n-126-de-24-de-agosto-de-2026-727881923), a candidate may leave the room _no earlier than two hours after the start of the test_.
 
 ## Customization
 
