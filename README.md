@@ -35,7 +35,25 @@ At a minimum, users must have:
 - A pen (preferably a transparent-barreled, black-ink pen, such as the <a href="https://eu.bic.com/pt-pt/stationery/cristal-anniversary">good old Bic Cristal</a>).
 - _and a bottle of water!_
 
-The following sections address the technical details, beginning with the dependencies.
+## ToC
+
+- [Prologue](#prologue)
+- [Dependencies](#dependencies)
+  - [Database](#database)
+- [Obtaining the source](#obtaining-the-source)
+- [Files](#files)
+- [Understanding `config.mk` and the `Makefile`](#understanding-configmk-and-the-makefile)
+  - [What `config.mk` is](#what-configmk-is)
+  - [Variables in `config.mk`](#variables-in-configmk)
+  - [`Makefile` targets](#makefile-targets)
+  - [The `make clean install` command](#the-make-clean-install-command)
+- [Installation](#installation)
+- [Corpus](#corpus)
+- [Usage](#usage)
+- [Customization](#customization)
+  - [Behavior (`config.def.h`)](#behavior-configdefh)
+  - [Filename convention](#filename-convention)
+- [License](#license)
 
 ## Dependencies
 
@@ -172,22 +190,22 @@ The table below lists the source project for each edition, from 2009 to 2025:
 | ENEM   | Overleaf project (read-only) |
 |-----------|------------------|
 | 2009 | <a href="https://www.overleaf.com/project/6ae30f8db91643c343a814d7/share#d6d9bd9c5f929d0da5930b6a469dff31fb54f150b024923c">d6d9bd9c5f929d0da5930b6a469dff31fb54f150b024923c</a> |
-| 2010 | WIP |
-| 2011 | WIP |
-| 2012 | WIP |
-| 2013 | WIP |
-| 2014 | WIP |
-| 2015 | WIP |
-| 2016 | WIP |
-| 2017 | WIP |
-| 2018 | WIP |
-| 2019 | WIP |
-| 2020 | WIP |
-| 2021 | WIP |
-| 2022 | WIP |
-| 2023 | WIP |
-| 2024 | WIP |
-| 2025 | WIP |
+| 2010 | `WIP` |
+| 2011 | `WIP` |
+| 2012 | `WIP` |
+| 2013 | `WIP` |
+| 2014 | `WIP` |
+| 2015 | `WIP` |
+| 2016 | `WIP` |
+| 2017 | `WIP` |
+| 2018 | `WIP` |
+| 2019 | `WIP` |
+| 2020 | `WIP` |
+| 2021 | `WIP` |
+| 2022 | `WIP` |
+| 2023 | `WIP` |
+| 2024 | `WIP` |
+| 2025 | `WIP` |
 
 After accessing and exporting it as `.zip`, run `tex2ff` on the resulting file (e.g., `2009.zip`) and move the output into `mt`'s data directory:
 
@@ -243,7 +261,7 @@ When the pool is emptied, `mt` enters a waiting state and displays `AGUARDE` tog
   </tr>
 </table>
 
-The `AGUARDE` message simulates the need to wait until the instructor gives you permission to leave the room on the day of the official test. According to [INEP's most recent rules](https://www.in.gov.br/web/dou/-/edital-n-126-de-24-de-agosto-de-2026-727881923), a candidate may leave the room _no earlier than two hours after the start of the test_.
+The `AGUARDE` message simulates the need to wait until the instructor gives you permission to leave the room on the day of the official test. According to [INEP's recent rules](https://www.in.gov.br/web/dou/-/edital-n-126-de-24-de-agosto-de-2026-727881923), a candidate may leave the room **no earlier than two hours after the start of the test**.
 
 ## Customization
 
@@ -279,4 +297,6 @@ Keep this convention when adding new files to the database — `mt` parses it wi
 
 ## License
 
-See the `LICENSE` file for copyright and license details.
+Distributed under the GNU General Public License v3 or later (GPLv3+).
+
+See the *LICENSE* file or visit: https://www.gnu.org/licenses/gpl-3.0.html
