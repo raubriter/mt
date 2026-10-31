@@ -12,9 +12,9 @@ Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/
 
 ### O que este programa não faz?
 
-- **Não** exibe dicas.
 - **Não** exibe o gabarito.
 - **Não** exibe o ano da edição.
+- **Não** exibe dicas ou "macetes".
 - **Não** exibe o número da questão.
 - **Não** calcula nem exibe pontuação.
 - **Não** exibe resoluções comentadas.
