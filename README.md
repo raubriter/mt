@@ -25,6 +25,9 @@ Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/
 
 </details>
 
+<details>
+<summary>Table of contents</summary>
+
 ## Table of contents
 
 **1.**&emsp;[Prologue](#prologue)
@@ -63,6 +66,7 @@ Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/
 
 **10.**&emsp;[License](#license)
 
+</details>
 
 ## Prologue
 
