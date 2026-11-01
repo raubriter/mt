@@ -42,6 +42,7 @@ Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/
 - [Usage](#usage)
 - [Customization](#customization)
   - [Behavior (`config.def.h`)](#behavior-configdefh)
+  - [Changing the data directory (`DATA_DIR`)](#changing-the-data-directory-data_dir)
   - [Filename convention](#filename-convention)
 - [License](#license)
 
@@ -293,6 +294,28 @@ To apply a change:
    ```
    make clean install
    ```
+
+### Changing the data directory (`DATA_DIR`)
+
+By default, `mt` looks for the `.ff.bz2` question files inside `data` (relative to where the program is launched). If you'd rather keep the Corpus somewhere else — for instance `$HOME/Documents/mt/data/` — you only need to change `DATA_DIR` in `config.def.h`:
+
+```c
+#define DATA_DIR "/home/youruser/Documents/mt/data"
+```
+
+Then apply the change as described above:
+
+1. Edit `config.def.h`.
+2. Copy it to `config.h` (if present):
+   ```
+   cp config.def.h config.h
+   ```
+3. Rebuild and reinstall:
+   ```
+   make clean install
+   ```
+
+> **Note:** `DATA_DIR` is a plain C string — it does **not** expand shell variables like `$HOME` or `~`. Use an absolute path (as above) or a path relative to the directory from which `mt` is executed.
 
 ### Filename convention
 
