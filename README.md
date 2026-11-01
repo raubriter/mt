@@ -25,26 +25,44 @@ Ele seleciona, aleatoriamente, 45 questões do <a href="https://www.gov.br/inep/
 
 </details>
 
-## ToC
+## Table of contents
 
-- [Prologue](#prologue)
-- [Dependencies](#dependencies)
-  - [Database](#database)
-- [Obtaining the source](#obtaining-the-source)
-- [Files](#files)
-- [Understanding `config.mk` and the `Makefile`](#understanding-configmk-and-the-makefile)
-  - [What `config.mk` is](#what-configmk-is)
-  - [Variables in `config.mk`](#variables-in-configmk)
-  - [`Makefile` targets](#makefile-targets)
-  - [The `make clean install` command](#the-make-clean-install-command)
-- [Installation](#installation)
-- [Corpus](#corpus)
-- [Usage](#usage)
-- [Customization](#customization)
-  - [Behavior (`config.def.h`)](#behavior-configdefh)
-  - [Changing the data directory (`DATA_DIR`)](#changing-the-data-directory-data_dir)
-  - [Filename convention](#filename-convention)
-- [License](#license)
+**1.**&emsp;[Prologue](#prologue)
+
+**2.**&emsp;[Dependencies](#dependencies)
+
+&emsp;&emsp;**2.1.**&emsp;[Database](#database)
+
+**3.**&emsp;[Obtaining the source](#obtaining-the-source)
+
+**4.**&emsp;[Files](#files)
+
+**5.**&emsp;[Understanding `config.mk` and the `Makefile`](#understanding-configmk-and-the-makefile)
+
+&emsp;&emsp;**5.1.**&emsp;[What `config.mk` is](#what-configmk-is)
+
+&emsp;&emsp;**5.2.**&emsp;[Variables in `config.mk`](#variables-in-configmk)
+
+&emsp;&emsp;**5.3.**&emsp;[`Makefile` targets](#makefile-targets)
+
+&emsp;&emsp;**5.4.**&emsp;[The `make clean install` command](#the-make-clean-install-command)
+
+**6.**&emsp;[Installation](#installation)
+
+**7.**&emsp;[Corpus](#corpus)
+
+**8.**&emsp;[Usage](#usage)
+
+**9.**&emsp;[Customization](#customization)
+
+&emsp;&emsp;**9.1.**&emsp;[Behavior (`config.def.h`)](#behavior-configdefh)
+
+&emsp;&emsp;**9.2.**&emsp;[Changing the data directory (`DATA_DIR`)](#changing-the-data-directory-data_dir)
+
+&emsp;&emsp;**9.3.**&emsp;[Filename convention](#filename-convention)
+
+**10.**&emsp;[License](#license)
+
 
 ## Prologue
 
