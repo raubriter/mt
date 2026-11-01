@@ -267,7 +267,9 @@ When the pool is emptied, `mt` enters a waiting state and displays `AGUARDE` tog
   </tr>
 </table>
 
-The `AGUARDE` message simulates the need to wait until the instructor gives the candidate permission to leave the room on the day of the official test. According to [INEP's recent rules](https://www.in.gov.br/web/dou/-/edital-n-126-de-24-de-agosto-de-2026-727881923), a candidate may leave the room **no earlier than two hours after the start of the test**.
+The `AGUARDE` message simulates the need to wait until the instructor gives the candidate permission to leave the room on the day of the official test. 
+
+According to [INEP's recent rules](https://www.in.gov.br/web/dou/-/edital-n-126-de-24-de-agosto-de-2026-727881923), a candidate may leave the room **no earlier than two hours after the start of the test**. That is why `TIMER_WAIT_MINUTES` defaults to `120`.
 
 ## Customization
 
