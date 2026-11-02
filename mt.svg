@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright (c) 2026, Richard M. Halbritter <halbritter@member.fsf.org> CC BY 4.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 7">
+  <path fill="#222" d="
+    M 0 0
+    h 16 v 2
+    H 14 v 5
+    H 12 V 2
+    H 10 v 5
+    H 8  V 2
+    H 6  v 5
+    H 4  V 2
+    H 2  v 5
+    H 0
+    z"/>
+</svg>
